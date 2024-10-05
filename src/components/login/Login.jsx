@@ -57,13 +57,13 @@ const Login = () => {
     }
   };
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
     const formData = new FormData(e.target);
     const { email, password } = Object.fromEntries(formData);
     try {
-      signInWithEmailAndPassword(auth, email, password);
+      await signInWithEmailAndPassword(auth, email, password);
     } catch (error) {
       console.log(error);
       toast.error(error.message);
@@ -78,7 +78,7 @@ const Login = () => {
         <form onSubmit={handleLogin}>
           <input type='text' name='email' placeholder='email' />
           <input type='password' name='password' placeholder='Password' />
-          <button disabled={loading}>{loading ? "Loading" : "Sign In"}</button>
+          <button disabled={loading}>{loading ? "Loading" : "Log In"}</button>
         </form>
       </div>
       <div className='separator'></div>

@@ -70,19 +70,11 @@
 
       &.own {
         align-self: flex-end;
-
         .texts {
           p {
             background-color: #5183fe;
           }
         }
-      }
-
-      img {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        object-fit: cover;
       }
       .texts {
         flex: 1;
@@ -90,17 +82,11 @@
         flex-direction: column;
         gap: 5px;
 
-        img {
-          width: 100%;
-          height: 180px;
-          border-radius: 10px;
-          object-fit: cover;
-        }
-
         p {
           padding: 20px;
           background-color: rgba(17, 25, 40, 0.3);
           border-radius: 10px;
+          width: 250px;
         }
 
         span {
@@ -168,5 +154,26 @@
         cursor: not-allowed;
       }
     }
+  }
+}
+.img-sender {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+
+  img {
+    width: 200px;
+
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}
+.message-img {
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
   }
 }
