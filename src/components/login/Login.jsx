@@ -49,6 +49,7 @@ const Login = () => {
       });
 
       toast.success("Account Created! You can login now!");
+      location.reload();
     } catch (err) {
       console.log(err);
       toast.error(err.message);
