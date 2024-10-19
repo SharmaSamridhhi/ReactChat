@@ -24,5 +24,7 @@ This project is a **real-time chat application** built using **React**. It allow
 - **⚡ Axios**: For making API requests, if applicable.
 - **🎨 CSS3**: For styling the application.
 
-<img width="1433" alt="Screenshot 2024-10-19 at 6 31 02 PM" src="https://github.com/user-attachments/assets/041658ed-feb2-4cf0-83a8-6d79338436e8">
-<img width="1428" alt="Screenshot 2024-10-19 at 6 31 53 PM" src="https://github.com/user-attachments/assets/3cd95443-dd92-413c-ae8a-de6a819440f9">
+<img width="1419" alt="Screenshot 2024-10-19 at 10 12 08 PM" src="https://github.com/user-attachments/assets/c59c0f17-43e5-4d8f-be1e-092e0a235005">
+<img width="1425" alt="Screenshot 2024-10-19 at 10 12 58 PM" src="https://github.com/user-attachments/assets/a31eeb16-ebe5-44de-bd64-e68863002a3f">
+
+
